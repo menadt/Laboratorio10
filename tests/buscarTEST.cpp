@@ -2,6 +2,10 @@
 #include "gtest/gtest.h"
 #include <string>
 
+TEST(tiempo, jumpSearch){
+    void calcularTiempoDeFuncion();
+    ASSERT_TRUE(true);
+}
 
 TEST(buscar, unElemento){
 	vector<int> v = {8};
@@ -23,6 +27,7 @@ TEST(buscar, dosElementos){
 	int res =  buscar(v, x);
 	ASSERT_EQ(1, res);
 }
+
 
 TEST(buscar, variosDesc){
 	vector<int> v = {8,6,4,2,1,0};
